@@ -43,6 +43,6 @@ def calculate_woe_iv(dataset, features, target, cat):
     #5 is the number of maximum categories required
 '''
 
-features = ['feature1', 'faeature2', 'feature3']
+features = ['feature1', 'feature2', 'feature3']
 data = calculate_woe_iv(data, features, 'target', 5)
 

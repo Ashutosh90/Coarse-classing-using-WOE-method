@@ -4,7 +4,7 @@
 # In[1]:
 
 
-def calculate_woe_iv(dataset, faetures, target, cat):
+def calculate_woe_iv(dataset, features, target, cat):
     for feature in features:
         while dataset[feature].nunique() > cat:
             lst = []

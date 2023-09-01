@@ -8,7 +8,7 @@ def calculate_woe_iv(dataset, features, target, cat):
     for feature in features:
         while dataset[feature].nunique() > cat:
             lst = []
-            for i in range(dataset[faeture].nunique()):
+            for i in range(dataset[feature].nunique()):
                 val = list(dataset[feature].unique())[i]
                 lst.append({
                     'Value': val,
